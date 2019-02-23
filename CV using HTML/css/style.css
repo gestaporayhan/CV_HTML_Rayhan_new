@@ -1,0 +1,160 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size :16px;
+	font-weight : normal;
+}
+
+.background_img {
+	width: 100%;
+	height: 120%;
+	background-image: url(../img/foto_rayhan.jpg);
+	background-repeat: no-repeat;
+	background-size : cover;
+	position : flex;
+	overflow-y:auto;
+}
+
+.navigate{
+	width: 350px;
+	height:auto;
+	position: fixed;
+	top: 10%;
+	left :0;
+}
+
+.navigate a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: serif;
+	font-weight: bold;
+	height:80px;
+	margin :10px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+	transition: 200ms;
+
+}
+
+a.active{
+	background-color: white;
+	color : black;
+}
+
+a.active, .navigate a:hover{
+	background-color: white;
+	color:black;
+	width:100%;
+}
+
+.hm{
+	width : 90%;
+	height: 30%;
+}
+
+.hm1{
+	width: 85%;
+	height: 30%;
+}
+
+.hm2{
+	width:80%;
+	height: 30%;
+}
+
+.hm3{
+	width: 75%;
+	height: 30%;
+}
+
+.hm4{
+	width:70%;
+	height: 30%;
+}
+
+.home{
+	width: 900px;
+	min-height: 800px;
+	height: auto;
+	position: absolute;
+	right:0;
+	top : 10%;
+
+}
+
+.home_text{
+	position: absolute;
+	right:0;
+	bottom:0;
+	color:white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.home_text h1{
+	font-size: 70px;
+	padding-right: 60px;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+	background-color: gray;
+	opacity : 0.6;
+}
+
+.home_text h3{
+	font-size: 30px;
+	padding-top:  10px 0;
+	background-color: gray;
+	opacity : 0.6;
+}
+
+.aboutme{
+	position:absolute;
+	right: 0;
+	bottom: 0px;
+	color: white;
+	background-color: gray;
+	opacity: 0.9;
+	font-family: century gothic;
+	padding: 0 45px;
+	display :none;
+}
+
+.aboutme p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 15px;
+
+}
+
+.education{
+	position:absolute;
+	right: 0;
+	bottom: 0px;
+	color: white;
+	background-color: gray;
+	opacity: 0.9;
+	padding: 0 45px;
+	display :none;
+}
+
+.education .edulist{
+	width: 20%;
+	height: auto;
+	margin-bottom: 2%;
+	float: left;
+}
+
+.edulist li{
+	width: 100%;
+	transition: all ease;
+	list-style: tibetan;
+}
