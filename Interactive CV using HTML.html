@@ -16,6 +16,11 @@
 			<a class = "hm4" href="#">CONTACTS</a>
 		</div>
 		
+		<audio controls autoplay class = >
+  			<source src="Debu.mp3" type="audio/mp3">
+  			Your browser does not support the audio element.
+		</audio>
+
 		<div class = "home">
 				<div class = "home_text">
 					<h1>Muhammad Rayhan Alifinzi Ghiffari<h1>
@@ -113,8 +118,13 @@
 						</a>
 					</div>
 					
+					
 
 				</div>
+
+				<header class = "header">
+					All rights reserved<br> © Muhammad Rayhan Alifinzi Ghiffari<br>1301174145
+				</header>
 
 		</div>
 
@@ -137,6 +147,7 @@
 		$education = $('.education'),
 		$achievements = $('.achievements'),
 		$contacts = $('.contacts');
+		$header = $('.header');
 
 		$hm.click(function(){
 			$home_text.fadeIn();
@@ -144,6 +155,7 @@
 			$education.fadeOut();
 			$achievements.fadeOut();
 			$contacts.fadeOut();
+			$header.fadeIn();
 		});
 
 		$hm1.click(function(){
@@ -152,6 +164,7 @@
 			$education.fadeOut();
 			$achievements.fadeOut();
 			$contacts.fadeOut();
+			$header.fadeIn();
 		});
 
 		$hm2.click(function(){
@@ -160,6 +173,7 @@
 			$education.fadeIn();
 			$achievements.fadeOut();
 			$contacts.fadeOut();
+			$header.fadeIn();
 		});
 
 		$hm3.click(function(){
@@ -168,6 +182,7 @@
 			$education.fadeOut();
 			$achievements.fadeIn();
 			$contacts.fadeOut();
+			$header.fadeOut();
 		});
 
 		$hm4.click(function(){
@@ -176,6 +191,7 @@
 			$education.fadeOut();
 			$achievements.fadeOut();
 			$contacts.fadeIn();
+			$header.fadeIn();
 		});
 
 		
